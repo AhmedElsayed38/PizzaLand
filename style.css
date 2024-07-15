@@ -1,0 +1,394 @@
+
+.nav-link{
+    color: black;
+    font-size: 14px;
+    font-weight:medium;
+}
+
+button{
+    font-size: 16px;
+}
+
+.up{
+    background-color: #E94339;
+    width: 115px;
+    height:56px;
+    border: none;
+    border-radius: 36px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.in{
+    border: none;
+    background-color: transparent;
+    width: 43;
+    cursor: pointer;
+}
+
+.section-one{
+    display: flex;
+    padding: 0 100px;
+    gap: 109px;
+    margin-top: 104px;
+}
+
+.right{
+    flex:1;
+}
+
+.right img{
+    width:500px ;
+    height: 452px;
+    margin-top: 37px;
+    margin-left: 40px;
+}
+
+.left{
+    flex: 1;
+    padding-top: 37px;
+}
+
+.left h1{
+    font-size: 61px;
+}
+.left p{
+    font-size: 18px;
+}
+
+.inputs{
+    width: 464px;
+    height: 64px;
+    border-radius: 56px;
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+    border-radius: 56px;
+}
+input{
+    border: none;
+    width: 310px;
+    height: 90%;
+    padding-left: 20px;
+    border-radius: 56px;
+    background-color: #F6F6F6;
+    
+}
+input::placeholder{
+    color: #AFAFAF;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+.inputs button{
+    margin-left: 10px;
+    border: none;
+    background-color: #FF5331;
+    border-radius: 56px;
+    width: 134px;
+    height: 52px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.apps{
+    display: flex;
+    gap: 40px;
+}
+.apps .apple {
+        width: 186.85px;
+        height: 68px;
+        background-color: #F4F4F4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        border-radius: 10px;
+        padding: 20px;
+        cursor: pointer;
+}
+
+.apps .apple p {
+font-size: 13px;
+padding-top: 13px;
+padding-left: 10px;
+font-weight: 500;
+}
+
+.apps .apple p span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.tittle{
+    margin-top: 104px;
+}
+.tittle h1{
+    font-size: 46px;
+}
+
+.tittle span{
+    color: #FF5331;
+}
+
+.tittle p{
+    font-size: 18px;
+}
+
+.section-two {
+    margin-top: 104px;
+}
+.food{
+padding-left: 142px;
+gap: 20px;
+justify-content: flex-end;
+padding-right: 8em;
+}
+.food .item{
+    width: 168px;
+    height: 232px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+}
+
+.food .item p{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.food .item .img-food{
+    background-color: #FFFFFF;
+    width: 108px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+
+.food .delivery {
+    width: 568px;
+    background-color: #FAFAFA;
+    border-radius: 28px;
+}
+
+.food .delivery p{
+    font-size: 25.8px;
+    font-weight: 500;
+}
+.food .delivery p .one{
+    color: #FF5331;
+}
+.food .delivery p .two{
+    color: #009B00;
+}
+.moto{
+    display: flex;
+        justify-content: right;
+}
+.food-2 .text{
+    width: 545px;
+    height: 186px;
+}
+.food-2{
+    gap: 20px;
+    padding-left: 5em;
+}
+.food-2 .item{
+        width: 168px;
+        height: 232px;
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 28px;
+}
+
+.food-2 .item .img-food {
+    background-color: #FFFFFF;
+    width: 108px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.section-three{
+    margin-top: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three h1{
+    font-size: 46px;
+}
+.how-to-carts{
+    margin-top: 59px;
+    position: relative;
+    gap: 125px;
+    justify-content: center;
+}
+.how-to-carts .item{
+        width: 168px;
+        height: 232px;
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 28px;
+        margin-top: 45px;
+        position: relative;
+}
+.how-to-carts .item .img-food{
+    background-color: #FFFFFF;
+        width: 108px;
+        height: 108px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+}
+
+.how-to-carts .number{
+    position: absolute;
+    font-size: 44px;
+    color: #FF5331;
+    font-weight: 600;
+}
+.section-4{
+    margin-top: 195px;
+    text-align: center;
+
+}
+.section-4 h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+.section-4 p{
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+.section-4 img{
+margin-top: 55px;
+}
+.swiper{
+    margin-top: 42px;
+    position: relative;
+    width:70vw;
+}
+.swiper-slide h1{
+    font-size: 24px;
+}
+
+.rate{
+   margin-top: 42px; 
+   font-size: 18px;
+   font-weight: 500;
+}
+.ceo{
+    font-size: 14px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+
+    /* Adjust as needed */
+    background-color: #E2E2E2;
+    padding: 30px;
+    border-radius: 44px;
+    color:black !important;
+}
+
+
+.buttons .active{
+    background-color: #FF5331;
+    color:white !important;
+}
+
+.section-five{
+    background-color: #FFEFEC;
+    margin-top: 204px;
+    height: 302px;
+    justify-content: space-between;
+    padding: 0 91px;
+}
+
+.section-five .inputs{
+    background-color: #FFFFFF;
+}
+.section-five .inputs input{
+background-color: #FFFFFF;
+}
+
+.section-five .inputs button{
+    width: 85px;
+    height: 52px;
+    margin-left: 65px;
+}
+
+footer{
+    padding-top: 128px ;
+    margin-top: 104px;
+    height: 600px;
+    background-color: #000000 ;
+    padding: 120px 93px;
+}
+
+.content-footer{
+    flex: 1;
+}
+
+.apps-content {
+    flex: 1.5;
+}
+.apps-content .footer-tittle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apps-content .footer-tittle p{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 35px;
+}
+
+.footer-tittle div li{
+    list-style: none;
+    font-size: 18px;
+    color: #B5B2B2;
+}
+.apps-content .end-footer ul{
+    margin-top: 170px;
+    gap: 90px;
+    margin-left: 170px;
+}
+
+.apps-content .end-footer ul li{
+    list-style: none;
+    font-size: 18px;
+    color:#B5B2B2;
+    
+}
+
+.copy-right{
+    margin-top: 210px;
+    font-size: 16px;
+    color: #B5B2B2;
+}
+

@@ -1,0 +1,262 @@
+@media (max-width: 767px) {
+.section-one{
+padding:0 10px;
+margin: 40px 0;
+}
+
+nav{
+    width: 100%;
+}
+.navbar-collapse{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.left{
+text-align: center;
+}
+.left h1{
+    font-size: 20px;
+    width: 90vw;
+}
+.left .p-section-one{
+    font-size: 14px;
+    width: 90vw;
+}
+
+.right{
+    display: none;
+}
+
+.me{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: start !important;
+    gap: 10px;
+    padding-top: 15px;
+}
+.navbar-toggler-icon{
+    margin-right:30px ;
+}
+.navbar-toggler:focus,
+.navbar-toggler-icon img:focus
+{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.navbar-toggler-icon img{
+    width: 70px;
+}
+footer{
+    display: none;
+}
+
+.inputs , .section-five .inputs{
+    width:350px;
+    padding: 10px; 
+}
+
+.apps{
+    display: block;
+}
+.apps .apple{
+    margin-top: 20px;
+}
+.inputs button ,.section-five .inputs button{
+    font-size: 16px;
+}
+.section-two{
+margin-left:  0;
+padding-left: 0;
+}
+.food{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0;
+}
+.delivery{
+    width: 80vw !important;
+    height: auto;
+}
+.delivery p{
+    padding:15px;
+    font-size: 1.5rem !important;
+
+}
+.delivery img{
+    margin-left: 6rem !important;
+    width: 40vw !important;
+}
+.moto{
+    display: flex;
+    justify-content: right;
+}
+.food .item{
+    width: 60vw;
+}
+.food-2 .text{
+    width: 80vw;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+}
+.food-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 104px !important;
+    padding: 0;
+}
+.food-2 .item{
+    width: 60vw;
+}
+.section-three{
+    display: block;
+}
+.how-to-carts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 80px;
+    gap: 0px;
+}
+.how-to-carts .cart-1{
+    width: 60vw;
+}
+.cart-1 .item{
+    width: 60vw;
+    height: 60vw;
+}
+.section-4{
+padding: 0 10px;
+}
+.buttons{
+    display: none;
+}
+.swiper-slide{
+    padding: 0 10px;
+}
+.section-five{
+    margin-top: 104px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center !important;
+    align-items: flex-start!important;
+}
+.section-five .text h1{
+    font-size: 25px;
+}
+}
+
+@media (min-width: 769px) and (max-width:1024px){
+.navbar-toggler-icon{
+    margin-top: 0 !important;
+    padding: 0 !important;
+    display: inline !important;
+}
+.container-fluid{
+    display: flex !important;
+    align-items: center !important;
+    padding-left: 1rem !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler-icon img:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.me {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: start !important;
+    gap: 10px;
+    padding-top: 15px;
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.buttons {
+    display: none;
+}
+.section-five{
+        margin-top: 0px !important;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: flex-start !important;
+
+}
+.food{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.food .item {
+    width: 30vw;
+}
+.food-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 104px !important;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.food-2 .item {
+    width: 30vw;
+}
+.food-2 .text{
+    width: 100vw !important;
+    padding: 0 5rem;
+}
+.how-to-carts{
+    width: 100vw;
+    display: flex;
+    height: auto !important;
+    padding: 0;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cart-1{
+    margin: 0 auto;
+}
+.cart-1 .item{
+    width: 30vw;
+}
+footer{
+    display: none !important;
+}
+
+}
+
+
+
+
